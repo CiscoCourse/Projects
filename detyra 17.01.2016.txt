@@ -1,0 +1,98 @@
+      - Detyra e Pare -
+
+1. Te krijohet klasa person me fushat ne vijim : 
+
+-Emri
+-Nr. i leternjoftimit
+
+
+I. Klasa duhet te ket konstruktor permes se ciles vendosen vlerat  e fushave
+II. Klasa duhet te kete metodat publike permes se cilave kthehet vlera e fushave
+
+
+
+- Te krijohet klasa Punedhenesi e cila trashegon klasen Person 
+- Klasa punedhenesi ka fushat ne vijim :
+
+- Numri i Puntoreve
+
+- Klasa ka konstruktor parametrik si dhe metoda per kthimin e vlerave te fushave private
+
+
+*Programi*
+
+I. Programi duhet ta krijoj/inicializoj  nje liste prej 3  personave 
+II. Programi krijon/inicializon 3 punedhenes dhe i vendos ne liste
+III. Itero ne liste dhe shtypi te dhenat e punedhenesve
+
+
+ ( vargu me loop me for )
+ 
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+        - Detyra e Dyte -
+
+1. Te krijohet klasa abstrakte Puntor me fushat ne vijim :
+
+-Emri
+-Kontakt
+-PuntriID
+
+- Kjo klas abstrakte ka metoden abstrakte si ne vijim : 
+
+ public abstract double kalkuloPagen();
+
+
+- Te krijohet klasa PuntoriPerkohshem e cila e zgjeron klasen Puntori(Klasen Baze) dhe i ka fushat si ne vijim :
+
+
+-PagesaPerOre
+-OreTePunuara
+
+- Klasa ka konstruktor parametrik dhe metoda public per kthimin e vlerave te fushave te saj
+
+- Klasa implementon metoden abstrakte te klases baze sipas formules ne vijim : 
+
+  paga = pagesaPerOre * oreTePunuara;
+
+- Te krijohet klasa PuntoriPemanent e cila trashegon klasen Puntori dhe i ka fushat si ne vijim : 
+
+-PagesaMujore
+
+
+- Kjo fushe eshte konstante
+
+
+- Ipet vlere arbitrare
+
+- Klasa ka konstruktor parametrik dhe metoda per kthimin e vleres se fushave
+
+Klasa implementon metoden abstrakte te klases baze me formulen si ne vijim :
+
+
+   return pagesaMujore;
+
+
+  * Programi *
+
+
+- Te inicializohet klasa PuntoriPerkohshem
+
+- Te inicizlizohet klasa PuntoriPermanent
+
+- Te shtypen pagat e secilit puntor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
