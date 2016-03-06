@@ -1,0 +1,49 @@
+
+public class Programi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Studenti[] studentat = new Studenti[3];
+		
+		Studenti studenti1 = new Studenti ("Arlind" , "Gjilan" , "158" ) ;
+		studentat[0] = studenti1;
+		
+		Studenti studenti2 = new Studenti ("Ardian" , "Gjilan" , "551" ) ;
+		studentat[1] = studenti2 ;
+		
+		
+		Studenti studenti3 = new Studenti ("Lindi" , "Prishtin" , "999" ) ;
+		studentat[2] = studenti3 ;
+		
+		
+		
+		for(int i=0; i < studentat.length ; i++){
+            
+			Studenti studentii = (Studenti) studentat[i];
+			
+			
+			
+			System.out.println("Emri  : " + studentii.getEmri());
+			
+			System.out.println("Adresa  :" + studentii.getAdresa());
+			
+			System.out.println("Numri i indexit : " + studentii.getnrIndex());
+			
+			
+			
+       }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package ProgramiPersoni;
+
+import java.util.ArrayList;
+
+public class Programi {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<String> emri = new ArrayList<String>();
+
+		emri.add("Arlind");
+		emri.add("Ardian");
+		emri.add("Arton");
+
+		for (int i = 0; i < emri.size(); i++) {
+
+			System.out.println(" " + emri.get(i));
+
+		}
+
+		ArrayList<String> adresa = new ArrayList<String>();
+
+		adresa.add("Gjilan");
+		adresa.add("Prishtin");
+		adresa.add("Pej");
+
+		for (int i = 0; i < adresa.size(); i++) {
+
+			System.out.println(" " + adresa.get(i));
+
+		
+		}
+	}
+
+}

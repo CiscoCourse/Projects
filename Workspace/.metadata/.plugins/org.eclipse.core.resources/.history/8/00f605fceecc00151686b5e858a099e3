@@ -1,0 +1,45 @@
+package org.kursi.store.depo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.kursi.store.domain.App;
+import org.kursi.store.domain.Product;
+import org.kursi.store.domain.ProductType;
+
+public class ProductDepo implements Depo {
+
+	private List<Product>  products  = new ArrayList<Product>();
+	
+	
+	public void save(Product products) {
+		
+		this.products.get(0);
+		
+	}
+
+	
+	public void list(ProductType productType) {
+		
+		
+		
+		
+		
+		
+		}
+		
+		
+		
+		
+
+
+
+
+	
+		
+	}
+
+
+
+
+

@@ -1,0 +1,5 @@
+package enumet;
+
+public enum Color {
+
+}

@@ -1,0 +1,19 @@
+package enumet;
+
+public class Programi {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Color color = Color.BLUE;
+		
+		ColorTest colorTest = new ColorTest(color);
+		
+		 colorTest.displayColor();
+		
+		System.out.println("");
+
+	}
+
+}

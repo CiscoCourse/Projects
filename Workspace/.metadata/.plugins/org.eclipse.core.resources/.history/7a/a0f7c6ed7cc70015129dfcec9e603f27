@@ -1,0 +1,30 @@
+package ushtrimePerProject;
+
+public class Personi {
+
+          
+	
+	    private String puntori ;
+      
+        private String adresa ;
+
+		
+        public Personi () {
+        	
+        }
+        
+        
+        public Personi(String puntori, String adresa) {
+			
+			
+			this.puntori = puntori;
+			this.adresa = adresa;
+		}
+
+
+   
+	   
+	   
+   }
+   
+

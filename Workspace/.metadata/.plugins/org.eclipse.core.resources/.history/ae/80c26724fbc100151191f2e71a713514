@@ -1,0 +1,48 @@
+
+public class Programi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		Studenti studenti1 = new Studenti ("Arlind" , "Gjilan" , "158" ) ;
+		
+		
+		Studenti studenti2 = new Studenti ("Ardian" , "Gjilan" , "551" ) ;
+		
+		Studenti studenti3 = new Studenti ("Lindi" , "Prishtin" , "999" ) ;
+		
+		
+		
+		System.out.println("Emri Studentint " + studenti1.getEmri());
+		
+		System.out.println("Adresa Studentint " + studenti1.getAdresa());
+		
+		System.out.println("Adresa Studentint " + studenti1.getnrIndex());
+		
+		
+		System.out.println("Emri Studentint " + studenti2.getEmri());
+		
+		System.out.println("Adresa Studentint " + studenti2.getAdresa());
+		
+		System.out.println("Adresa Studentint " + studenti2.getnrIndex());
+		
+		
+		
+		System.out.println("Emri Studentint " + studenti3.getEmri());
+		
+		System.out.println("Adresa Studentint " + studenti3.getAdresa());
+		
+		System.out.println("Adresa Studentint " + studenti3.getnrIndex());
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

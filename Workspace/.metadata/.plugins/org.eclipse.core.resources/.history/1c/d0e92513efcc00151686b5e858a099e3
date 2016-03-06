@@ -1,0 +1,32 @@
+package org.kursi.store.domain;
+
+public class App extends Product {
+
+	private String version;
+
+	private String description;
+
+	public App(int id, String name, double price, String version,
+			String description) {
+		super(id, name, price);
+		this.version = version;
+		this.description = description;
+	}
+   
+	
+	
+	public String getVersion(){
+		return this.version ;
+	}
+  
+   public String getDescription(){
+	   return this.description;
+   }
+
+   public String toString()
+   {
+	   return "App [ id =  "  + id + " , name = " + name + " , price = " + price + " , version = " + version + " , description = " + description + "]";  
+   }
+   
+   
+}

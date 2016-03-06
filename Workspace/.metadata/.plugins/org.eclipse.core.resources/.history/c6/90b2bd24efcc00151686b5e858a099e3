@@ -1,0 +1,76 @@
+package org.kursi.store.klienti;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.kursi.store.domain.App;
+import org.kursi.store.domain.Product;
+import org.kursi.store.domain.SmartPhone;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+
+		App product = new App(1, "flashLight", 450, "2.3", "5.5");
+		product.setName("flashLight");
+		product.setId(1);
+		product.setPrice(450);
+		product.displayProduct();
+		
+
+	
+	List<Product> productss = new ArrayList<Product>();
+	
+	
+	
+	productss.add(new App(100, "Flash Light", 450, "2.5" , "Hello there"));
+	productss.add(new App(101, "Tower Defense", 520, "2.8" , "Hello here"));
+	productss.add(new App(102, "Viber", 120, "1.8" , "Hello nowhere"));
+	
+
+	
+   
+	productss.add(new SmartPhone(1, "smartphone", 450, "5.5 inch ", "5.0"));
+	productss.add(new SmartPhone(2, "Nexus", 250, "4.7 inch", "7.1"));
+	
+
+	
+	for(Product producti : productss)
+	{
+		
+		System.out.println(producti.toString());
+	}
+	
+	for(Product product1 : productss)
+	{
+		
+		if ( product1 instanceof App){
+			
+			App app = (App) product1;
+			System.out.println("ID :  " + app.getID() + ",  Name : "
+				+ app.getName() + ",  Price : " + app.getPrice()
+				+ ",  Version : " + app.getVersion()
+				+ ",  Description : " + app.getDescription());
+			
+		}else if (product1 instanceof SmartPhone) {
+			
+			SmartPhone smartphone = (SmartPhone) product1;
+			
+			System.out.println("ID :  " + smartphone.getID() + ",  Name : "
+					+ smartphone.getName() + ",  Price : " + smartphone.getPrice()
+					+ ", Screen Size : " + smartphone.getScreenSize() + ", Model  : "
+					+ smartphone.getModel());
+			
+			
+		}
+		
+		
+		
+	}
+	
+	
+	
+	}
+	
+	}
+
